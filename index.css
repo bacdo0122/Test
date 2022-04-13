@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.body{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    
+}
+.body-left{
+    width: 10%;
+    height: 100%;
+    background-color: #191818;
+}
+.body-left-container{
+   width: 100%;
+   height: 100%;
+}
+.body-left-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.body-left-item{
+    width: 100%;
+    cursor: pointer;
+    padding: 12px;
+    background: #191718;
+    border-bottom: 1px solid #333333;
+}
+.body-left-item:hover{
+    background-color: #5C5C5C;
+}
+.body-left-item:hover .item-link{
+    color: #fff;
+}
+.item-link{
+    color: #AAAAAA;
+    font-size: 18px;
+    font-weight: 400;
+}
+.body-right{
+    flex: 1;
+     width: 100%;
+    height: 100%;
+}
+.body-right-container{
+    
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding:  10px;
+   
+}
+.body-right-container .right-img{
+    text-align: center;
+}
+.body-right-container .right-img img{
+    width: 312px;
+    height: 122px;
+    object-fit: contain;
+}
+.right-text{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+   
+    background-color: #EFEFEF;
+}
+.p-text{
+    width: 70%;
+    text-indent: 1rem;
+    max-width: 70%;
+    margin: 15px auto;
+}
+.right-list{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.right-item-text{
+    margin-top: 10px;
+    display: flex;
+}
+.right-item-text p{
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    align-items: flex-start;
+    vertical-align: top;
+    color: #000;
+
+}
+.right-p-text{
+    margin-top: 6px;
+}
+.right-item-text img{
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+    margin-right: 16px;
+}
+.right-item:nth-child(2){
+    margin: 0 20px;
+}
+.right-item-p-text{
+    margin-top: 6px;
+}
+.copy-right{
+    margin: 5rem 0 1rem;
+ font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #3E3E3E;
+}
+@media screen and (max-width: 1024px) {
+    .body{
+        height: 142vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    .body{
+        height: 148vh;
+    }
+}
